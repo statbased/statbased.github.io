@@ -1,0 +1,147 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:700italic);
+@import url(https://fonts.googleapis.com/css?family=Puritan:400,700);
+/*font-family: 'Puritan', sans-serif;*/
+
+header {
+	display: inline;
+}
+
+body {
+	font-size: 16px;
+/*	background: #F3E5AB;*/
+}
+
+nav {
+	font-size: 1.3em;
+	font-family: 'Puritan', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	font-family: Athelas, Times, serif;
+	text-align: left;
+
+/*	margin: 4em;*/
+}
+
+a {
+	font-family: Arial, sans-serif;
+	text-decoration: none;
+	color: #000;
+	cursor: auto;
+}
+
+a:link:active, a:visited:active {
+		color: green;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	color: red;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 4em;
+	/*headline*/
+}
+
+h2 {
+/*	intro/kicker*/
+	font-family: Athelas, serif;
+	font-size: 1.5em;
+}
+
+h3 {
+
+}
+
+h4 {
+	/*pull quote*/
+	font-family: Didot, sans-serif;
+	font-style: italic;
+	font-size: 1.5em;
+}
+
+h5 {
+	font-size: 1.1em;
+	font-family: Athelas, serif;
+}
+
+.article {
+	margin: 2% 0 0 10%;
+}
+
+.logo {
+	height: 5em;
+	width: 5em;
+	background-repeat: no-repeat;
+	margin-left: 4%;
+/*	padding: 10px;*/
+/*	background-size: cover;*/
+/*	background-repeat: no-repeat;
+	background-position: left top;*/
+	background:url("../css/assets/images/logo.gif") center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	float:left;
+
+}
+
+.fixed_bg {
+	background:url("../css/assets/images/peaches.jpg") no-repeat center center fixed;
+	background-size: cover;
+/*	opacity: .4;*/
+/*	height: 20%;
+*/}
+
+.slogan {
+	font-family: Didot, cursive;
+	font-style: italic;
+	text-align: center;
+	color: white;
+	width: 800px;
+	font-size: 1.5em;
+	padding: 2em;
+	opacity: 1;
+/*	line-height:1.5em;*/
+}
+
+.intro {
+	line-height:1.5em;
+	width: 40%;
+	text-align: justify;
+}
+
+.pull {
+	margin: 5%;
+	text-align: center;
+	width: 80%;
+	line-height:1.5em;
+}
+
+.body {
+	line-height:1.5em;
+	width: 40%;
+	text-align: justify;
+}
+
+.services {
+	font-family: 'Puritan', sans-serif;
+	font-size: 1.3em;
+	text-transform: uppercase;
+}
+
+
+/*.article {
+	-webkit-column-count: 3;
+	-moz-column-count: 3;
+	column-count: 3;
+}*/
+
