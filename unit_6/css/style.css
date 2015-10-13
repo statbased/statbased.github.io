@@ -1,0 +1,166 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+body {
+	background-color: black;
+}
+
+header {
+	margin: 5% 0 0 .1%;
+}
+
+hr {
+	color: #bcb6a1;
+}
+
+nav {
+	padding: 2% 22.2% 0 45em;
+}
+
+nav a{
+/*	padding: .5em;*/
+/*	margin: 0 0 0 1.8em;*/
+	color: white;
+	text-align: center;
+	padding: .2em;
+	text-decoration: none;
+	font-family: Arial, sans-serif;
+/*	color: #070000;*/
+	font-size: 3em;
+}
+
+nav a:hover {
+	text-decoration: none;
+	border-bottom: .1em solid #bcb6a1;
+	color: #bcb6a1;
+}
+
+section {
+	margin: 0 0 0 20%;
+}
+
+button {
+}
+
+ul {
+	height: auto;
+	width: auto;
+	margin: 5% 5%;
+	float: left;
+	display: inline-block;
+}
+
+h3 {
+	font-family: Arial, sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+/*	background-color: #fff;*/
+	color: #fff;
+	width: auto;
+/*	padding: .2em;*/
+}
+
+/*li {
+	width: auto;
+	display: block;
+	text-align: center;
+	font-family: Arial, sans-serif;
+	font-weight: ;
+	font-size: 1.4em;
+	background: #fff;
+/*	display: table;*/
+/*	background-color: #fff;*/
+/*	color: #090000;
+	padding: .2em 1.2em;
+	margin: 1em;
+}*/
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	margin: 0;
+	font-size: .8em;
+}
+
+.dropdown:hover .dropdown-menu{
+	display:block;
+}
+
+.wordmark {
+/*	position: absolute;
+	float:left;
+	left: 200px;*/
+	margin: 0 0 0 22.3%;
+	float: left;
+	color: #070000;
+	font-family: Audiowide, Arial, sans-serif;
+	font-size: 5em;
+	color: white;
+/*	float:left;*/
+}
+
+.wordmark:hover{
+	text-decoration:none;
+	color:white;
+}
+
+.slogan {
+	text-decoration: none;
+	text-align: center;
+	margin-top: .7em;
+	color: #090000;
+	font-size: 2em;
+	font-family: Georgia, serif;
+	line-height: 1.5em;
+	width: 100%;
+	padding: 1.3em 20%;
+	background-color: white;
+}
+
+.employee1 {
+/*	position: absolute;
+	float: left;*/
+/*	vertical-align: middle;*/
+	height: 10em;
+	width: 10em;
+	border-radius: 50%;
+	margin: 10%;
+	border: 1.5px solid #bcb6a1;
+/*	width: 500px;
+	height: 100px;*/
+}
+
+.caption {
+	display: block;
+	background: #fff;
+	font-color: #0900000;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+/*.contents {
+	width: auto;
+	background-color: #fff;
+}*/
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}*/
