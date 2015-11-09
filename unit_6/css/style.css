@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Audiowide);
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	background-color: black;
 }
@@ -13,7 +19,7 @@ hr {
 }
 
 nav {
-	padding: 2% 22.2% 0 45em;
+	padding: 3.12% 20% 0 47.35em;
 }
 
 nav a{
@@ -99,7 +105,7 @@ h3 {
 	float: left;
 	color: #070000;
 	font-family: Audiowide, Arial, sans-serif;
-	font-size: 5em;
+	font-size: 6em;
 	color: white;
 /*	float:left;*/
 }
