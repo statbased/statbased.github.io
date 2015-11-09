@@ -155,8 +155,8 @@ footer a {
 	}
 
 	.stories img{
-		width:50%;
-		margin: 0 0 0 25%;
+		width: 100%;
+		margin: auto;
 	}
 
 	.stories a {
